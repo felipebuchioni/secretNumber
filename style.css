@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+:root {
+  --fonte-family:'Poppins', sans-serif;
+  --bg-color: #27374D;
+  --primary-color: #526D82;
+  --secundary-color: #9DB2BF;
+  --font-color: #DDE6ED;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--font-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  font-family: var(--fonte-family);
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+.mensagem {
+  font-size: 1.5em;
+  margin-top: 40px;
+}
+
+.box {
+  border: 4px solid var(--secundary-color);
+  background-color: var(--primary-color);
+  display: inline-block;
+  font-size: 4em;
+  padding: 10px;
+  margin: 20px;
+}
+
+.mystery {
+  font-weight: 700;
+}
+
+.jogar-novamente {
+  display: inline-block;
+  background-color: var(--secundary-color);
+  font-size: 1em;
+  font-weight: 700;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.jogar-novamente:hover {
+  background-color: var(--primary-color);
+  color: var(--secundary-color);
+}
